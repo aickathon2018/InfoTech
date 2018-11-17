@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/payText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="PAYMENT"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/carPlateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/payText"
+        android:layout_alignRight="@+id/payText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp"
+        android:textSize="18sp"
+        android:text="Car Plate : " />
+
+    <TextView
+        android:id="@+id/driverText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/carPlateText"
+        android:layout_alignRight="@+id/carPlateText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:textSize="18sp"
+        android:text="Driver : " />
+
+    <TextView
+        android:id="@+id/icText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/driverText"
+        android:layout_alignRight="@+id/driverText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="193dp"
+        android:textSize="18sp"
+        android:text="Ic : " />
+
+    <TextView
+        android:id="@+id/durationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/icText"
+        android:layout_alignRight="@+id/icText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="246dp"
+        android:textSize="18sp"
+        android:text="Duration : " />
+
+    <TextView
+        android:id="@+id/totalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/durationText"
+        android:layout_alignRight="@+id/durationText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="299dp"
+        android:textSize="18sp"
+        android:text="Total Payment :" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/durationText"
+        android:layout_alignRight="@+id/durationText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="-104dp"
+        android:layout_marginRight="-104dp"
+        android:layout_marginBottom="56dp"
+        android:text="Pay"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/carPlateAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/carPlateText"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/driverAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/driverText"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/icAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignTop="@+id/icText"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/paymentAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/totalText"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/durationAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignBottom="@+id/durationText"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+</RelativeLayout>

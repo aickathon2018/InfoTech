@@ -1,0 +1,72 @@
+body {
+    background-color: white;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+form {
+    position: relative;
+    transition: .5s ease;
+    
+    margin: 0 auto; 
+    width: 100%;    
+    overflow: hidden;
+    display: inline-block;
+}
+
+p1 {
+    position: absolute;
+    transition: .5s ease;
+    top: 10%;
+    left: 10%;
+}
+
+p2 {
+    position: absolute;
+    transition: .5s ease;
+    top: 15%;
+    left: 15%;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+.container{overflow: hidden}
+.tab{float: left;}
+.tab-2{margin-left: 50px}
+.tab-2 input{display: block;margin-bottom: 10px}
+tr{transition:all .25s ease-in-out}
+tr:hover{background-color:#EEE;cursor: pointer}
+
+img{
+    max-width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  input[type=file]{
+  padding:10px;
+  background: white;}
+
+table {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

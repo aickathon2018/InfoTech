@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+
+    <style>
+     
+      </style>  
+
+</head>
+<body>
+    <div>
+        <div>
+          <h1 id="appName">CLIBATS</h1> <!--Car License Based Ticketing System-->
+
+          <form name="fileinfo">
+            <img id="uploadPreview" style="width: 200px; height: 200px;" />
+            <br>
+            <h2>
+              The license plates photo will get from CCTV or etc.
+              <br>
+            <input id="uploadImage" type="file" name="filename" onchange="PreviewImage();" />
+            <button type="button" onclick="uploadPhoto()">Upload!</button>
+            </h2>
+           
+            
+        </form>
+
+        </div>
+      </form>
+        <div>
+          <span id="demo"></span>
+        </div>
+    </div>
+    <script src="api.js">
+        
+    </script>
+
+<br>
+
+<table id="myTable">
+  <tr>
+    <th>Car Plate</th>
+    <th>Time In</th>
+    <th>Time Out</th>
+  </tr>
+</table>
+<br>
+
+</body>
+
+</html>
